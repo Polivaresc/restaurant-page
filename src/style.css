@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+  display: flex;  
+  flex-direction: column;
+}
+
+#page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 100px;
+}
+
+.headline {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2A3132;
+    padding: 100px 150px;
+}
+
+.logo {
+    font-size: x-large;
+}
+
+.logo, button {
+    color: #90AFC5;
+}
+
+.logo:hover, button:hover {
+    cursor: pointer;
+}
+
+button {
+    background: none;
+    padding: 8px 12px;
+    border: 1px solid #90AFC5;
+}
+
+button:hover {
+    border-color: #336B87;
+    color: #336B87;
+}
+
+.pages {
+    display: flex;
+    gap: 20px;
+}
+
+.images {
+    align-self: center;
+}
+
+.descriptions {
+    color: #2A3132;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 55%;
+    align-self: center;
+    padding: 50px;
+}
+
+.title {
+    font-size: xx-large;
+    color: #336B87;
+    border-bottom: 2px solid #336B87;
+    width: 40%;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: large;
+    color: #763626;
+}
