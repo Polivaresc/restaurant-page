@@ -18,11 +18,15 @@ export default function contactPage() {
     phoneTitle.classList.add('subtitle')
     emailTitle.classList.add('subtitle')
     locationTitle.classList.add('subtitle')
+    emailDescription.classList.add('link')
 
     contactTitle.textContent = 'Contact'
     phoneTitle.textContent = 'Phone'
+    phoneDescription.textContent = '333-666-999'
     emailTitle.textContent = 'Email address'
+    emailDescription.textContent = 'restaurant_email@restaurant.res'
     locationTitle.textContent = 'Location'
+    locationDescription.textContent = '35 Rte B, Saint Thomas,mo, 65036 United States'
 
     phone.append(phoneTitle, phoneDescription)
     email.append(emailTitle, emailDescription)

@@ -15,11 +15,14 @@ export default function pageLoad() {
     menu.setAttribute('id', 'menu-button')
     contact.setAttribute('id', 'contact-button')
 
+    home.classList.add('header-button')
+    menu.classList.add('header-button')
+    contact.classList.add('header-button')
+
     headline.classList.add('headline')
     logo.classList.add('logo')
     pages.classList.add('pages')
 
-    pageContent.innerHTML = ''
     logo.textContent = 'Restaurant\'s logo'
     home.textContent = 'Home'
     menu.textContent = 'Menu'
